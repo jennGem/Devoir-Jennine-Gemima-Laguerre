@@ -1,0 +1,15 @@
+# importation de CreditBancaire
+df<-read.csv("CreditBancaire.csv")
+
+
+# explorer l'objet
+str(df)
+
+##################################
+
+# la moyenne du credit
+mean(df$Credit)
+
+##################################
+
+# la moyenne du 
